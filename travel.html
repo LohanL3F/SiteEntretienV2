@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="scrollstyles_travel.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Portfolio : Parcours</title>
+    <link rel="icon" href="https://i.imgur.com/c6NHJgd.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="keywords" content="Art, Dessins, Portfolio, BTech" />
+    <meta
+      name="description"
+      content="Un site portfolio pour présenter mes dessins ! Vous pourrez y trouver une partie de mon travail ainsi que des moyens pour me contacter."
+    />
+    <meta name="author" content="Lohan Lefèvre" />
+  </head>
+
+  <body>
+    <div id="PrincipalPage2">
+      <video autoplay muted loop playsinline id="PrincipalPageVideo">
+        <source src="BackgroundAnim.mp4" type="video/mp4" />
+      </video>
+      <video autoplay muted loop playsinline id="PrincipalPageVideoNight">
+        <source src="BackgroundAnimnight.mp4" type="video/mp4" />
+      </video>
+      <img
+        id="lightsPrincipalPage"
+        src="https://i.imgur.com/ic1QEvF.png"
+        alt=""
+      />
+    </div>
+
+    <nav>
+      <ul id="navLinks">
+        <li class="listLink">
+          <a class="link" href="travel.html">Parcours</a>
+        </li>
+        <li class="listLink">
+          <a class="link" href="index.html">Accueil</a>
+        </li>
+        <li class="listLink">
+          <a class="link" href="projects.html">Projets</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="presentationBox">
+      <div id="meIcon"></div>
+      <div id="presentationText">
+        <h1 id="presentationTitle">PRÉSENTATION :</h1>
+        <p class="presentationP">
+          Bienvenue ! Je m'appelle Lohan Lefèvre et j'ai actuellement 18ans, je
+          dessine depuis très jeune, j'ai d'abord commencé avec l'art
+          traditionnel comme la peinture acrylique, l'aquarelle, les feutres à
+          alcool et même le fusain !
+          <br />
+          Depuis 2021, je suis passé à l'art "digital", je dessine avec une
+          tablette graphique principalement sur le logiciel Krita, mais ça m'est
+          arrivé de dessiner sur des logiciels tels que Photoshop, clip studio
+          paint ou gimp.
+        </p>
+      </div>
+    </div>
+    <img id="flowerPots" src="https://i.imgur.com/OXUxcQH.png" alt="" />
+    <div id="contentBox">
+
+
+
+
+
+
+      <!--CONTACT-->
+      <div id="contactContent">
+      <div id="contactBox">
+        <div id="coordinatesSide">
+          <h2 class="title3">Coordonnées</h2>
+          <hr id="hrContact" />
+          <div id="coordinatesContent">
+            <p class="text2">Tel.00-00-00-00-00</p>
+            <p class="text2">
+              linktree :
+              <a
+                class="contactLink"
+                href="https://linktr.ee/YukoSmile"
+                target="_blank"
+                >YukoSmile</a
+              >
+            </p>
+            <p class="text2">Adresse : 32 Rue De Jesépaoù 69420</p>
+          </div>
+        </div>
+        <div class="container">
+          <input class="inputContact" type="checkbox" id="sent-toggle" />
+          <div id="contactSide">
+            <h2 class="title2">Vous souhaitez m'envoyer un mail ?</h2>
+            <input type="name" placeholder="  Prénom/Nom" required />
+            <input type="email" placeholder=" Votre email" required />
+            <textarea rows="4" placeholder=" Votre message" required></textarea>
+            <label for="sent-toggle" class="btn">Envoyer</label>
+          </div>
+
+          <div id="success-message">
+            Merci pour votre message !
+            <img
+              id="successMessageImage"
+              src="https://i.imgur.com/TlL19Jn.png"
+              alt=""
+            />
+          </div>
+        </div>
+    </div>
+
+  </body>
+</html>
